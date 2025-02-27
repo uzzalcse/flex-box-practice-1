@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading-one">Flex Box Practice</h1>
+    <div class="flex-box-container-main">
+        <div class="flex-box">
+            <div class="flex-item left-parent-flex-container">
+                <div class="left-side" id="flex-item-left-top-part">left top</div>
+                <div class="left-side left-inner-parent-container" id="flex-item-left-bottom-part">
+                    <div class="left-inner-flex-container">
+                            <div class="left-inner-most-flex-item" id="left-inner-most-flex-item-top">left bottom left top</div>
+                            <div class="left-inner-most-flex-item" id="left-inner-most-flex-item-bottom">left bottom left bottom</div>
+                    </div>
+                    <div class="left-inner-flex-container" id="left-inner-flex-container-right-id">left bottom right</div>
+                </div>
+            </div>
+            <div class="flex-item right-side-main-flex-container">
+                <div class="right-top-main-flex-container" id="right-flex-item-top">
+                    <div class="right-left-flex-container" id="right-top-item-left">
+                        <div class="right-left-top-common">right left top 1</div>
+                        <div class="right-left-top-middle">right left top 2</div>
+                        <div class="right-left-top-common">right left top 3</div>
+                    </div>
+                    <div class="right-right-flex-container" id="right-top-item-right">
+                        <div id="right-right-top-1">right right top 1</div>
+                        <div id="right-right-top-2">right right top 2</div>
+                        <div id="right-right-top-3">right right top 3</div>
+                    </div>
+                </div>
+                <div id="right-flex-item-bottom">right bottom</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

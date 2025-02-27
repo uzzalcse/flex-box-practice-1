@@ -1,0 +1,142 @@
+/* ========== flex container  ========= */
+body {
+    background-color: aquamarine;
+}
+
+.flex-box-container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+
+}
+
+.heading-one {
+    text-align: center;
+    font-weight: lighter;
+    color: seagreen
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80vh;
+}
+
+.flex-item {
+    width: 49%;
+}
+
+#flex-item-left-top-part {
+    height: 14%;
+    background-color: tomato
+}
+
+#flex-item-left-bottom-part {
+    height: 82%;
+}
+
+.left-parent-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-inner-parent-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+
+
+#left-inner-flex-container-right-id {
+    background-color: khaki;
+    width: 45%;
+}
+
+.left-inner-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+}
+
+#left-inner-most-flex-item-top {
+    height: 73%;
+    background-color: green;
+}
+
+#left-inner-most-flex-item-bottom {
+    height: 21%;
+    background-color: tomato;
+}
+
+
+/* right side flex container */
+
+
+.right-top-main-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right-top-item-left {
+    width: 47%;
+}
+
+#right-top-item-right {
+    width: 47%;
+}
+
+.right-side-main-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right-flex-item-top {
+    height: 80%;
+}
+
+#right-flex-item-bottom {
+    height: 16%;
+    background-color: purple;
+}
+
+.right-left-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-right-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-left-top-common {
+    height: 35%;
+    background-color: orangered;
+}
+
+.right-left-top-middle {
+    height: 24%;
+    background-color: brown;
+}
+
+#right-right-top-1 {
+    height: 45%;
+    background-color: turquoise;
+}
+
+#right-right-top-2 {
+    height: 30%;
+    background-color: burlywood;
+}
+
+#right-right-top-3 {
+    height: 20%;
+    background-color: blueviolet;
+}
