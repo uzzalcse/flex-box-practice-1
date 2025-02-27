@@ -13,7 +13,7 @@ git clone https://github.com/uzzalcse/flex-box-practice-1.git
 Navigate to the project directory:
 
 ```bash
-cd learn_html_css/flex-box-practice-1
+cd flex-box-practice-1
 ```
 
 Open the `index.html` file in your preferred web browser to see the Flexbox examples in action.
@@ -23,13 +23,6 @@ Open the `index.html` file in your preferred web browser to see the Flexbox exam
 - `index.html`: The main HTML file containing the structure of the Flexbox examples.
 - `styles.css`: The CSS file containing the Flexbox styles.
 
-## The Result output will be like the following screen shot
+## The output will be like the following image
 
 ![alt text](image.png)
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-Happy coding!
